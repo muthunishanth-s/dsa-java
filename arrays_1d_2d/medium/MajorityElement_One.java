@@ -2,7 +2,10 @@ package arrays_1d_2d.medium;
 
 public class MajorityElement_One {
 
-    // Boyer-Moore-Algorithm
+    // Boyer-Moore Voting Algorithm:
+    // If any two different elements are removed (paired together),
+    // the majority element will always remain as the majority element.
+    // Simply: Removing two different elements does not change the majority element.
     static int majorityElement(int[] arr)
     {
         if(arr.length == 0) return -1;
