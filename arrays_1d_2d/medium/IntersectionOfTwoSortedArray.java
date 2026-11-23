@@ -5,7 +5,7 @@ import java.util.List;
 
 public class IntersectionOfTwoSortedArray {
 
-    static List<Integer> intersectionOfTwoSorteddArrays(int[] arr1, int[] arr2)
+    static List<Integer> intersection(int[] arr1, int[] arr2)
     {
         List<Integer> result = new ArrayList<>();
 
@@ -37,6 +37,6 @@ public class IntersectionOfTwoSortedArray {
         int[] arr1 = {1, 1, 2, 3, 4, 5, 5}; 
         int[] arr2 = {1, 3, 3, 7, 9};
 
-        System.out.println(intersectionOfTwoSorteddArrays(arr1, arr2));
+        System.out.println(intersection(arr1, arr2));
     }
 }

@@ -5,7 +5,7 @@ import toolkit.ArrayUtils;
 
 public class LeftRotateArrayByKPlaces {
 
-    public static void leftRotateArrayByKPlaces(int[] arr, int k)
+    public static void rotate(int[] arr, int k)
     {
         int size = arr.length;
         k = k % size;
@@ -20,7 +20,7 @@ public class LeftRotateArrayByKPlaces {
         int arr[] = {5, 6, 3, 20, 9};
         int k = 3;
 
-        leftRotateArrayByKPlaces(arr, k);
+        rotate(arr, k);
 
         System.out.println(Arrays.toString(arr));
     }

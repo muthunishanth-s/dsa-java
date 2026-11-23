@@ -3,7 +3,7 @@ package arrays_1d_2d.easy;
 
 public class SecondSmallest {
 
-    static int secondSmallestElement(int[] arr)
+    static int secondSmallest(int[] arr)
     {
         int firstSmallest = Integer.MAX_VALUE;
         int secondSmallest = Integer.MAX_VALUE;
@@ -31,7 +31,7 @@ public class SecondSmallest {
     {
         int arr[] = {56, 76, 33, 20, 9};
 
-        int secondSmallest = secondSmallestElement(arr);
+        int secondSmallest = secondSmallest(arr);
 
         if(secondSmallest == Integer.MAX_VALUE)
             System.out.println("No Second Smallest Element Present");

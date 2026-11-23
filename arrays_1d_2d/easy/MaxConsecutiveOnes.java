@@ -2,7 +2,7 @@ package arrays_1d_2d.easy;
 
 public class MaxConsecutiveOnes {
 
-    static int maximumConsecutiveOnes(int[] arr)
+    static int getMaxConsecutiveOnes(int[] arr)
     {
         int max = 0;
         int temp = 0;
@@ -30,7 +30,7 @@ public class MaxConsecutiveOnes {
         
         int[] arr = {1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1};
 
-        System.out.println(maximumConsecutiveOnes(arr));
+        System.out.println(getMaxConsecutiveOnes(arr));
 
     }
 }

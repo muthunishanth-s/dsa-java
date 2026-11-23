@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RearrangeArrayElementsBySign {
 
-    static int[] rearrangeArrayElementsBySign(int[] arr)
+    static int[] rearrange(int[] arr)
     {
         int size = arr.length;
         int[] answer = new int[size];
@@ -32,6 +32,6 @@ public class RearrangeArrayElementsBySign {
     public static void main(String[] args) {
         int[] arr = {1, -1, -3, -4, 2, 3};
 
-        System.out.println(Arrays.toString(rearrangeArrayElementsBySign(arr)));
+        System.out.println(Arrays.toString(rearrange(arr)));
     }
 }

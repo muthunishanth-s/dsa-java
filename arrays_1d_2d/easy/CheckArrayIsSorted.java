@@ -2,7 +2,7 @@ package arrays_1d_2d.easy;
 
 public class CheckArrayIsSorted {
     
-    static boolean isSortedArray(int[] arr)
+    static boolean isSorted(int[] arr)
     {
         for(int i=1; i<arr.length; i++)
         {
@@ -19,6 +19,6 @@ public class CheckArrayIsSorted {
         
         int[] arr = { 1, 5, 6, 8, 7, 9};
 
-        System.out.println(isSortedArray(arr));
+        System.out.println(isSorted(arr));
     }
 }

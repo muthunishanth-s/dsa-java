@@ -5,7 +5,7 @@ import java.util.List;
 
 public class UnionOfTwoSortedArrays {
 
-    static List<Integer> unionOfTwoSorteddArrays(int[] arr1, int[] arr2)
+    static List<Integer> unionArrays(int[] arr1, int[] arr2)
     {
         List<Integer> result = new ArrayList<>();
         int i = 0;
@@ -68,6 +68,6 @@ public class UnionOfTwoSortedArrays {
         int[] arr1 = {1, 1, 2, 3, 4, 5, 5}; 
         int[] arr2 = {1, 3, 3, 7, 9};
 
-        System.out.println(unionOfTwoSorteddArrays(arr1, arr2));
+        System.out.println(unionArrays(arr1, arr2));
     }
 }

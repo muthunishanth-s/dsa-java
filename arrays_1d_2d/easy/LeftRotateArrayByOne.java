@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LeftRotateArrayByOne {
 
-    static void leftRotateArrayByOne(int[] arr)
+    static void leftRotate(int[] arr)
     {
         int temp = arr[0];
 
@@ -23,7 +23,7 @@ public class LeftRotateArrayByOne {
         
         int[] arr = {4, 5, 3, 9, 10};
 
-        leftRotateArrayByOne(arr);
+        leftRotate(arr);
 
         System.out.println(Arrays.toString(arr));
     }

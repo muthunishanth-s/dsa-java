@@ -2,7 +2,7 @@ package arrays_1d_2d.easy;
 
 public class SecondLargest {
 
-    static int secondLargestElement(int[] arr)
+    static int secondLargest(int[] arr)
     {
         int firstLargest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
@@ -30,7 +30,7 @@ public class SecondLargest {
     {
         int arr[] = {56, 76, 33, 20, 9};
 
-        int secondLargest = secondLargestElement(arr);
+        int secondLargest = secondLargest(arr);
 
         if(secondLargest == Integer.MIN_VALUE)
             System.out.println("No second largest element");

@@ -5,7 +5,7 @@ import toolkit.ArrayUtils;
 
 public class MoveZerosToEnd {
 
-    static void moveZerosToEnd(int[] arr)
+    static void moveZeros(int[] arr)
     {
         int j = 0;
         
@@ -26,7 +26,7 @@ public class MoveZerosToEnd {
         
         int[] arr = {1, 0, 0, 4, 5, 0, 6, 0, 9};
 
-        moveZerosToEnd(arr);
+        moveZeros(arr);
 
         System.out.println(Arrays.toString(arr));
     }

@@ -2,7 +2,7 @@ package arrays_1d_2d.easy;
 
 public class MissingNumber {
 
-    static int missingNumber(int[] arr, int n)
+    static int getMissingNumber(int[] arr, int n)
     {
         int xor1 = 0, xor2 = 0;
 
@@ -26,6 +26,6 @@ public class MissingNumber {
         int[] arr = {1, 2, 3, 5, 6};
         int n = arr.length + 1;
 
-        System.out.println(missingNumber(arr, n));
+        System.out.println(getMissingNumber(arr, n));
     }
 }

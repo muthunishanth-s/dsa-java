@@ -5,7 +5,7 @@ import java.util.List;
 
 public class SpiralMatrix {
 
-    static List<Integer> printSpiralMatrix(int[][] arr)
+    static List<Integer> spiralOrder(int[][] arr)
     {
         int row = arr.length;
         int col = arr[0].length;
@@ -69,6 +69,6 @@ public class SpiralMatrix {
         
         int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-        System.out.println(printSpiralMatrix(arr));
+        System.out.println(spiralOrder(arr));
     }
 }

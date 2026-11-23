@@ -6,7 +6,7 @@ import java.util.List;
 
 public class LeadersInArray {
 
-    static List<Integer> leadersInArray(int[] arr)
+    static List<Integer> getLeaders(int[] arr)
     {
         int max = Integer.MIN_VALUE;
         List<Integer> list = new ArrayList<>();
@@ -29,6 +29,6 @@ public class LeadersInArray {
         
         int[] arr = {1, 2, 5, 3, 1, 2};
 
-        System.out.println(leadersInArray(arr));
+        System.out.println(getLeaders(arr));
     }
 }

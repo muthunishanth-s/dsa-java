@@ -12,7 +12,7 @@ package arrays_1d_2d.easy;
 
 public class LargestElement {
 
-    static int largestElement(int[] arr)
+    static int getMaxElement(int[] arr)
     {
         int max = arr[0];
 
@@ -34,6 +34,6 @@ public class LargestElement {
     {
         int arr[] = {56, 76, 33, 20, 9};
 
-        System.out.println(largestElement(arr));
+        System.out.println(getMaxElement(arr));
     }
 }
